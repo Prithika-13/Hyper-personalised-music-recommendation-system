@@ -1,0 +1,24 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local datasets and generated recommendation artifacts
+lastfm-dataset-1K/*.tsv
+MP3-Example/
+User Listening History.csv
+interaction_matrix.npz
+train_matrix.npz
+test_holdout.pkl
+user_to_idx.pkl
+idx_to_user.pkl
+track_to_idx.pkl
+idx_to_track.pkl
+track_lookup.csv
+als_model_user_factors.npy
+als_model_item_factors.npy
+item_faiss_index.bin
+matched_track_metadata.csv
+text_faiss_index.bin
+text_idx_to_track.pkl
+track_text_lookup.csv
+step11_checkpoint*.pkl
